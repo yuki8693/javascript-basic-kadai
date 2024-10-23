@@ -1,5 +1,5 @@
 const squared = (num)=> {
-  console.log(num * 2);
+  return (num * num);
 }
 
-squared(50);
+console.log(squared(10));
